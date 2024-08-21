@@ -56,7 +56,7 @@ const LoginRegisterForm = () => {
               name="username"
               rules={[{ required: true, message: "请输入你的用户名!" }]}
             >
-              <Input />
+              <Input placeholder="用户名是admin" />
             </Form.Item>
 
             <Form.Item
@@ -64,7 +64,7 @@ const LoginRegisterForm = () => {
               name="password"
               rules={[{ required: true, message: "请输入你的密码!" }]}
             >
-              <Input.Password />
+              <Input.Password placeholder="密码是123456" />
             </Form.Item>
 
             <Form.Item name="remember" valuePropName="checked">
@@ -84,7 +84,7 @@ const LoginRegisterForm = () => {
               name="username"
               rules={[{ required: true, message: "请输入你的用户名!" }]}
             >
-              <Input />
+              <Input placeholder="用户名是admin" />
             </Form.Item>
 
             <Form.Item
@@ -92,7 +92,7 @@ const LoginRegisterForm = () => {
               name="password"
               rules={[{ required: true, message: "请输入你的密码!" }]}
             >
-              <Input.Password />
+              <Input.Password placeholder="密码是123456" />
             </Form.Item>
 
             <Form.Item
